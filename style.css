@@ -22,6 +22,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
+  background-color: #f5f8ff;
 }
 
 .header-section {
@@ -223,8 +224,6 @@ body {
 
 .review__author--avatar {
   border-radius: 50%;
-}
-.review__author--details {
 }
 
 .review__author--name {
