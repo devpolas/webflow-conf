@@ -141,25 +141,25 @@ body {
 
 .overview {
   height: 30rem;
-  width: 130rem;
+  width: 115rem;
   border-radius: 2rem;
   background-color: rgba(77, 71, 255, 0.1);
   margin: 0 auto;
   margin-top: 12rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.overview__container {
-  padding: 5rem;
-}
+
 .overview__title {
-  font-size: 5rem;
+  font-size: 3.8rem;
   font-weight: 800;
 }
 .overview__items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 14rem 0;
+  gap: 16rem;
 }
 
 .overview__item {
@@ -177,6 +177,61 @@ body {
   font-size: 2rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.review {
+  height: 35rem;
+  width: 115rem;
+  margin: 0 auto;
+  margin-top: 14rem;
+}
+
+.review__main {
+  display: flex;
+  gap: 2rem;
+}
+
+.review__container {
+  height: 23rem;
+  width: 35rem;
+  background-color: rgba(242, 237, 237, 0.5);
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+.review__container--rating {
+  margin-bottom: 2.5rem;
+}
+
+.review__title {
+  text-align: center;
+  font-size: 4.2rem;
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+
+.review__message--title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.review__author--container {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.review__author--avatar {
+  border-radius: 50%;
+}
+.review__author--details {
+}
+
+.review__author--name {
+  color: #757575;
+}
+.review__date {
+  color: #757575;
 }
 
 .btn:hover {
