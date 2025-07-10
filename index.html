@@ -11,7 +11,7 @@
     <header class="header-section">
       <!-- navigation bar -->
       <nav class="nav">
-        <h1 class="nav__logo monoton-regular"><a href="#">WC</a></h1>
+        <h1 class="logo monoton-regular"><a href="#">WC</a></h1>
         <button class="btn nav__btn">Sign Up</button>
       </nav>
 
@@ -167,9 +167,61 @@
       <!-- webflow section end -->
 
       <section class="contact">
-        <h1 class=""></h1>
+        <h1 class="contact__heading">
+          Let’s Get in <span class="contact__heading--sub">Touch</span>
+        </h1>
+        <div class="input__section">
+          <form class="form" action="post">
+            <label for="email">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@email.com"
+            />
+            <br />
+            <label for="name">Full Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Please Enter Your Name"
+            />
+            <br />
+            <label for="textarea">Message</label>
+            <br />
+            <textarea
+              name="message"
+              id="textarea"
+              cols="30"
+              rows="5"
+              placeholder="write your message..."
+            ></textarea>
+          </form>
+          <button class="btn contact__btn">Get in Touch</button>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__container">
+        <h1 class="logo monoton-regular footer-title"><a href="#">WC</a></h1>
+
+        <p class="footer__description">
+          Ready to elevate your online presence? Contact us today to discuss
+          your project and discover how we can bring your vision to life.
+        </p>
+        <div class="footer__links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+        <p class="copywrite">&copy; copywrite Webflow Conf</p>
+      </div>
+    </footer>
   </body>
 </html>

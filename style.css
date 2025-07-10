@@ -47,15 +47,15 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.nav__logo {
+.logo {
   width: 25rem;
   height: 5rem;
   font-size: 4.8rem;
 }
-.nav__logo a {
+.logo a {
   text-decoration: none;
   color: #0800ff;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .btn {
@@ -119,7 +119,7 @@ body {
 .action__left--description {
   font-size: 2.5rem;
   margin-top: 2rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(37, 36, 50, 0.5);
 }
 
 .action__left--description--sub {
@@ -269,9 +269,113 @@ body {
   border-radius: 3rem;
   display: block;
 }
+
+.contact {
+  margin: 0 auto;
+  margin-top: 10rem;
+  height: 65rem;
+  width: 120rem;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.contact__heading {
+  font-size: 8rem;
+  font-weight: 800;
+}
+
+.contact__heading--sub {
+  display: block;
+}
+
+.contact__btn {
+  height: 6rem;
+  width: 100%;
+}
+
+.contact input[type='text'],
+.contact input[type='email'] {
+  height: 5rem;
+  width: 100%;
+  padding: 3.2rem 2rem;
+  border: none;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.contact textarea {
+  width: 100%;
+  padding: 3.2rem 2rem;
+  border: none;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  height: 30rem;
+  width: 100%;
+  padding: 5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container {
+  width: 53rem;
+  height: 22rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-title {
+  width: 100%;
+}
+
+.footer__description {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer__links ul {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__links ul li {
+  list-style: none;
+}
+
+.footer__links ul li a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer__links ul li a:hover {
+  color: #6200ff;
+}
+
+.copywrite {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.logo a:hover {
+  color: #6200ff;
+}
 .btn:hover {
   transform: translateY(-1px);
   cursor: pointer;
+  background-color: #6200ff;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
 }
 
