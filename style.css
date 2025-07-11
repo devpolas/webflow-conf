@@ -68,6 +68,13 @@ body {
   transition: all 0.5s;
 }
 
+.btn a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav__btn {
   width: 13rem;
   height: 5rem;
@@ -190,7 +197,7 @@ body {
 
 .review__main {
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .review__container {
@@ -296,6 +303,7 @@ body {
 }
 
 .contact__btn {
+  font-size: 1.6rem;
   height: 6rem;
   width: 100%;
 }
