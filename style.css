@@ -7,13 +7,6 @@
   box-sizing: inherit;
 }
 
-/* ? convert document font-size 1rem to 10px */
-/*
-16px = 1rem
-1px = 1/16rem
-10px = 1/16 * 10 rem = 0.625 rem;
-convert ro percentage = 62.5%
-*/
 
 html {
   font-size: 62.5%;
